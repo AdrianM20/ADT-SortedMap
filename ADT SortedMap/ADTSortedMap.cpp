@@ -21,6 +21,8 @@ void SortedMap::add(const int & key, const Student & value)
 	DLLNode* find = this->search(key);
 	if (find != NULL)
 		throw exception("The student with ID %d is already registered in the database!");
+	int pos = 1;
+	DLLNode* currentNode = this->head;
 
 }
 
